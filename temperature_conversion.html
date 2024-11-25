@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+
+    
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" type="text/css" href="weightconversion.css"> <!-- Custom styles for temperature conversion -->
+</head>
+<body>
+
+<header>
+    <h1>Temperature Conversion</h1>
+</header>
+
+<section id="conversions">
+    <div class="conversion">
+        <h2>Conversion</h2>
+        <label for="temperatureInput">Enter Temperature:</label>
+        <input type="number" id="temperatureInput" placeholder="Enter temperature" step="any">
+
+        <label for="fromUnit">From Unit:</label>
+        <select id="fromUnit">
+            <option value="celsius">Celsius (°C)</option>
+            <option value="fahrenheit">Fahrenheit (°F)</option>
+            <option value="kelvin">Kelvin (K)</option>
+        </select>
+
+        <label for="toUnit">To Unit:</label>
+        <select id="toUnit">
+            <option value="celsius">Celsius (°C)</option>
+            <option value="fahrenheit">Fahrenheit (°F)</option>
+            <option value="kelvin">Kelvin (K)</option>
+        </select>
+
+        <button id="convertBtn">Convert</button>
+
+        <label for="temperatureOutput">Result:</label>
+        <input type="text" id="temperatureOutput" placeholder="Result" readonly>
+    </div>
+</section>
+
+<footer>
+    <p>&copy;Advanced Unit Converter by Vivek Mauryavanshi</p>
+</footer>
+<script src="temperature_conversion.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Storage Conversion</title>
+    <link rel="stylesheet" type="text/css" href="storage_conversion.css">
+</head>
+<body>
+
+<header>
+    <h1>Digital Storage Conversion</h1>
+</header>
+
+<section>
+    <label for="storageInput">Enter Amount:</label>
+    <input type="number" id="storageInput" placeholder="Enter value">
+
+    <label for="fromUnit">From Unit:</label>
+    <select id="fromUnit">
+        <option value="bit">Bit</option>
+        <option value="byte">Byte</option>
+        <option value="kilobyte">Kilobyte</option>
+        <option value="megabyte">Megabyte</option>
+        <option value="gigabyte">Gigabyte</option>
+        <option value="terabyte">Terabyte</option>
+        <option value="petabyte">Petabyte</option>
+        <option value="exabyte">Exabyte</option>
+        <option value="zettabyte">Zettabyte</option>
+        <option value="yottabyte">Yottabyte</option>
+        <option value="brontobyte">Brontobyte</option>
+        <option value="geopbyte">Geopbyte</option>
+        <option value="satabyte">Satabyte</option>
+        <option value="zotabyte">Zotabyte</option>
+    </select>
+
+    <label for="toUnit">To Unit:</label>
+    <select id="toUnit">
+        <option value="bit">Bit</option>
+        <option value="byte">Byte</option>
+        <option value="kilobyte">Kilobyte</option>
+        <option value="megabyte">Megabyte</option>
+        <option value="gigabyte">Gigabyte</option>
+        <option value="terabyte">Terabyte</option>
+        <option value="petabyte">Petabyte</option>
+        <option value="exabyte">Exabyte</option>
+        <option value="zettabyte">Zettabyte</option>
+        <option value="yottabyte">Yottabyte</option>
+        <option value="brontobyte">Brontobyte</option>
+        <option value="geopbyte">Geopbyte</option>
+        <option value="satabyte">Satabyte</option>
+        <option value="zotabyte">Zotabyte</option>
+    </select>
+
+    <button id="convertBtn">Convert</button>
+
+    <label for="storageOutput">Result:</label>
+    <input type="text" id="storageOutput" readonly>
+</section>
+
+<footer>
+    <p>&copy;Digital Storage Conversion by Vivek Mauryavanshi</p>
+</footer>
+
+<script src="storage_conversion.js"></script>
+</body>
+</html>

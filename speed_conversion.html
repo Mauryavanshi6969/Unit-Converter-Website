@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Conversion</title>
+    <link rel="stylesheet" type="text/css" href="volume_conversion.css">
+</head>
+<body>
+
+<header>
+    <h1>Speed Conversion</h1>
+</header>
+
+<section>
+    <label for="speedInput">Enter Speed:</label>
+    <input type="number" id="speedInput" placeholder="Enter value">
+
+    <label for="fromUnit">From Unit:</label>
+    <select id="fromUnit">
+        <option value="metersPerSecond">Meters per Second</option>
+        <option value="kilometersPerHour">Kilometers per Hour</option>
+        <option value="milesPerHour">Miles per Hour</option>
+        <option value="knot">Knot</option>
+    </select>
+
+    <label for="toUnit">To Unit:</label>
+    <select id="toUnit">
+        <option value="metersPerSecond">Meters per Second</option>
+        <option value="kilometersPerHour">Kilometers per Hour</option>
+        <option value="milesPerHour">Miles per Hour</option>
+        <option value="knot">Knot</option>
+    </select>
+
+    <button id="convertBtn">Convert</button>
+
+    <label for="speedOutput">Result:</label>
+    <input type="text" id="speedOutput" readonly>
+</section>
+
+<footer>
+    <p>&copy;Speed Conversion by Vivek Mauryavanshi</p>
+</footer>
+
+<script src="speed_conversion.js"></script>
+</body>
+</html>

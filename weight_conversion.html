@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Conversion</title>
+
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="weightconversion.css"> <!-- Custom styles for weight conversion -->
+</head>
+<body>
+
+<header>
+    <h1>Weight Conversion</h1>
+</header>
+
+<section id="conversions">
+    <div class="conversion">
+        <h2>Conversion</h2>
+        <label for="weightInput">Enter Quantity:</label>
+        <input type="number" id="weightInput" placeholder="Enter quantity" step="any">
+        
+        <label for="fromUnit">From Unit:</label>
+        <select id="fromUnit">
+            <option value="g">Gram (g)</option>
+            <option value="kg">Kilogram (kg)</option>
+            <option value="tonne">Tonne (tonne)</option>
+            <option value="mg">Milligram (mg)</option>
+            <option value="µg">Microgram (µg)</option>
+            <option value="ng">Nanogram (ng)</option>
+            <option value="pg">Picogram (pg)</option>
+            <option value="lb">Pound (lb)</option>
+            <option value="oz">Ounce (oz)</option>
+        </select>
+
+        <label for="toUnit">To Unit:</label>
+        <select id="toUnit">
+            <option value="g">Gram (g)</option>
+            <option value="kg">Kilogram (kg)</option>
+            <option value="tonne">Tonne (tonne)</option>
+            <option value="mg">Milligram (mg)</option>
+            <option value="µg">Microgram (µg)</option>
+            <option value="ng">Nanogram (ng)</option>
+            <option value="pg">Picogram (pg)</option>
+            <option value="lb">Pound (lb)</option>
+            <option value="oz">Ounce (oz)</option>
+        </select>
+
+        <button id="convertBtn">Convert</button>
+
+        <label for="weightOutput">Result:</label>
+        <input type="text" id="weightOutput" placeholder="Result" readonly>
+    </div>
+</section>
+
+<footer>
+    <p>&copy;Advanced Unit Converter by Vivek Mauryavanshi</p>
+</footer>
+<script src="weight_conversion.js"></script>
+</body>
+</html>
